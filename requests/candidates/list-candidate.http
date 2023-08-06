@@ -1,0 +1,5 @@
+@HOST = http://localhost:8080 
+
+GET {{HOST}}/candidate HTTP/1.1
+Content-Type: application/json 
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImZhYmNkNDZkLTFjMzEtNGZhNy1hNWZmLTNiNThhZjYxZGM5YiIsIm5hbWUiOiJKb8OjbyBQZWRybyIsImVtYWlsIjoiam9hb0BnbWFpbC5jb20iLCJ0eXBlIjoiUiIsImVudGVycHJpc2VOYW1lIjoiR3Jvd2RldiBTQSIsImlhdCI6MTY5MDkzODA5MX0.luQVuWiOCXWN9is7JHR6n-3ZytTFuWpk4Q2OlwMxweU
