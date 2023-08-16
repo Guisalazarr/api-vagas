@@ -16,5 +16,7 @@ export const jobRoute = () => {
 
   app.get("/:idJob/candidate", logged, new JobController().listByJob);
 
+  app.get("/", logged, new JobController().list);
+
   return app;
 };

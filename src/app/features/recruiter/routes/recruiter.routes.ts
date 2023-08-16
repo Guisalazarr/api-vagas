@@ -12,7 +12,7 @@ export const recruiterRoutes = () => {
     RecruiterValidator.checkRecruiterToken,
   ];
 
-  app.get("/", logged, new RecruiterController().list);
+  app.get("/", new RecruiterController().list);
   app.post("/", new RecruiterController().create);
 
   app.use("/:idJob/application", logged, jobApplicationRoutes());

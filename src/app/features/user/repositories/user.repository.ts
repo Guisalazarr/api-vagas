@@ -32,7 +32,8 @@ export class UserRepository {
       enterpriseName: user.enterpriseName,
     });
 
-    await this.repository.save(entity);
+    const teste = await this.repository.save(entity);
+    console.log(teste);
   }
 
   public async list(type: UserType) {
